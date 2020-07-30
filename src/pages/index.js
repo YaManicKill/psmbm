@@ -1,14 +1,10 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 
-import Intro from '../sections/intro'
-import Feedback from '../sections/feedback/index';
-import About from '../sections/about';
+import BM2020 from '../sections/2020';
 
 export default () => (
   <Layout>
-    <Intro></Intro>
-    <About></About>
-    <Feedback></Feedback>
+    <BM2020></BM2020>
   </Layout>
 );

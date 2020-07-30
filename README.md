@@ -1,3 +1,3 @@
-# Friends Of Gordon Cottage
+# Port St Mary Beach Mission
 
-Website for Friends of Gordon Cottage
+Website for Port St Mary Beach Mission, in the isle of man

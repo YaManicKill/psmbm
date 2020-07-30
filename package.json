@@ -1,7 +1,7 @@
 {
-  "name": "fogc",
+  "name": "psmbm",
   "author": "Al McKinlay",
-  "repository": "https://github.com/McInkay/fogc",
+  "repository": "https://github.com/McInkay/psmbm",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
