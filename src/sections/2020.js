@@ -4,6 +4,7 @@ import Promo2020_2 from '../static/2020-promo2.mp4';
 import Promo2020_Image from '../static/2020-promo-still.jpg';
 import Promo2020_2_Image from '../static/2020-promo2-still.jpg';
 import INFO_2020 from '../static/2020-info.pdf';
+import LOCAL_2020 from '../static/2020-local.pdf';
 
 import Video from '../components/Video';
 import SplitView from '../components/SplitView';
@@ -53,7 +54,7 @@ export default () => (
             team members to look after all the children.
           </p>
           <p className="text-xl lg:text-1xl mt-6 font-light">
-            More information here: <a href={'/2020-local.pdf'}>Local-Events.pdf</a>
+            More information here: <a href={LOCAL_2020}>Local-Events.pdf</a>
           </p>
         </>
       }
