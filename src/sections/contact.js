@@ -13,7 +13,7 @@ export default () => (
       left={
         <div class="w-full max-w-xs">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none">Contact Us</h1>
-          <form class="contact px-8 pt-6 pb-8 mb-4 mt-5" method="post" netlify>
+          <form class="contact px-8 pt-6 pb-8 mb-4 mt-5" netlify name="contact">
             <div class="mb-4">
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
