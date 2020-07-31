@@ -18,9 +18,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#2020">
           Virtually Beach Mission
         </AnchorLink>
-        {/* <AnchorLink className="px-4" href="#contact">
+        <AnchorLink className="px-4" href="#contact">
           Contact
-        </AnchorLink> */}
+        </AnchorLink>
       </div>
     </div>
   </header>
