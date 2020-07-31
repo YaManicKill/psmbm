@@ -37,11 +37,7 @@ export default () => (
           </p>
         </>
       }
-      right={
-        <div className="pt-12">
-          <Video poster={Promo2020_Image} src={Promo2020} />
-        </div>
-      }
+      right={<Video poster={Promo2020_Image} src={Promo2020} />}
     ></SplitView>
 
     <SplitView
