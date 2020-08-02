@@ -93,7 +93,9 @@ export default () => (
                 13-17s - Deckers
               </a>
             </li>
-            <h2 className="text-1xl font-bold leading-none pt-5">For all ages:</h2>
+            <h2 className="text-1xl font-bold leading-none pt-5">
+              For all ages: (Meet the Team available now)
+            </h2>
             <li>
               <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
                 Beach Services and Special Events
