@@ -46,7 +46,7 @@ export default () => (
       right={
         <>
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none">
-            Update (29th July)
+            Afternoon Events
           </h1>
           <p className="text-xl lg:text-1xl mt-6 font-light">
             We are planning to run some afternoon events during the Beach Mission fortnight. Parents
