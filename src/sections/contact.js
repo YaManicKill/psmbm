@@ -57,6 +57,51 @@ export default () => (
           </form>
         </div>
       }
+      right={
+        <div>
+          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none">
+            Links to Videos
+          </h1>
+          <ul className="px-8 pt-6 pb-8 mb-4 mt-5">
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyiCM98TaGBUOoo9mlxbhFW&index=1">
+                Under 5s - Jelly Tots and Heroes
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyFDhIB3Y3g0Yfv5TeqVTip&index=1">
+                5-6s - Smarties
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyRh4NOBVAww3fT7s8MQcYn&index=1">
+                7-8s - Skittles
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIzNsFd39MKtIJ2uXtNCAt5R&index=1">
+                9-10s - Crunchies
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIz_eFlp3qv8pdDEcjvU_biX&index=1">
+                11-12s - Refreshers
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxIYrTH1PiJVIxMUGXMS0LQ&index=1">
+                13-17s - Deckers
+              </a>
+            </li>
+            <h2 className="text-1xl font-bold leading-none pt-5">For all ages:</h2>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
+                Beach Services and Special Events
+              </a>
+            </li>
+          </ul>
+        </div>
+      }
     ></SplitView>
   </section>
 );
