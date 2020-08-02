@@ -29,7 +29,7 @@ export default () => (
           <p className="text-xl lg:text-1xl mt-6 font-light">
             More information here: <a href={INFO_2020}>VBM-Info.pdf</a>
             <br />
-            The link for the videos will be posted here on Sunday 2nd August.
+            The links for the videos <a href="#contact">are available now.</a>
           </p>
           <p className="text-xl lg:text-1xl mt-2 font-light">
             <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary-su-beach-mission">
