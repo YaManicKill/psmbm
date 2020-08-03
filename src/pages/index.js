@@ -7,6 +7,5 @@ import Contact from '../sections/contact';
 export default () => (
   <Layout>
     <BM2020></BM2020>
-    <Contact></Contact>
   </Layout>
 );
