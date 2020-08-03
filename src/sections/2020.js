@@ -32,7 +32,7 @@ export default () => (
             </li>
           </ul>
           <img
-            className="pr-10 pt-10"
+            className="pr-10 pt-10 hidden lg:block"
             src={MALLMORE_IMAGE}
             alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
           ></img>
@@ -99,6 +99,12 @@ export default () => (
           <p className="text-xl lg:text-1xl mt-6 font-light">
             More information here: <a href={LOCAL_2020}>Local-Events.pdf</a>
           </p>
+
+          <img
+            className="p-20 lg:hidden"
+            src={MALLMORE_IMAGE}
+            alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
+          ></img>
 
           <div className="mt-5">
             <Contact></Contact>
