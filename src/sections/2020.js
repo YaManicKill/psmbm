@@ -41,10 +41,16 @@ export default () => (
       right={
         <>
           <ul className="text-xl lg:text-1xl font-light">
-            <p className="text-xl lg:text-1xl font-light">
-              Playlists will be updated as the weeks go on:
+            <p className="text-xl lg:text-1xl font-light mb-5">
+              Video playlists will be updated as the weeks go on.
             </p>
-            <h1 className="text-xl font-bold leading-none mt-5 pb-2">Age Group Videos:</h1>
+            <h1 className="text-xl font-bold leading-none mt-2 pb-2">All Age Videos:</h1>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
+                Beach Services and Special Events
+              </a>
+            </li>
+            <h1 className="text-xl font-bold leading-none mt-2 pb-2">Age Group Videos:</h1>
             <li>
               <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyiCM98TaGBUOoo9mlxbhFW&index=1">
                 Under 5s - Jelly Tots and Heroes
@@ -75,15 +81,10 @@ export default () => (
                 13-17s - Deckers
               </a>
             </li>
-            <h2 className="text-1xl font-bold leading-none mt-5 mb-2">Others:</h2>
-            <li>
-              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
-                Beach Services and Special Events
-              </a>
-            </li>
+            <h1 className="text-xl font-bold leading-none mt-2 pb-2">Other:</h1>
             <li>
               <a href="https://www.facebook.com/Virtually-Beach-Mission-Allsorts-103783218070298/">
-                Allsorts: A Place for Parents
+                Parents - Allsorts
               </a>
             </li>
           </ul>
