@@ -30,6 +30,9 @@ export default () => (
             <li>
               <a href="https://www.facebook.com/psmbeachmission">Facebook</a>
             </li>
+            <li>
+              <a href="/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
+            </li>
           </ul>
           <img
             className="pr-10 pt-10 hidden lg:block"
