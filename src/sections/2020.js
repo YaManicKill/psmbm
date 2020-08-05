@@ -3,7 +3,7 @@ import INFO_2020 from '../static/2020-info.pdf';
 import LOCAL_2020 from '../static/2020-local.pdf';
 
 import SplitView from '../components/SplitView';
-import MALLMORE_IMAGE from '../static/mallmore.jpg';
+import EXTRA_EVENTS_IMAGE from '../static/2020-extra-events.jpg';
 import Contact from './contact';
 
 export default () => (
@@ -36,7 +36,7 @@ export default () => (
           </ul>
           <img
             className="pr-10 pt-10 hidden lg:block"
-            src={MALLMORE_IMAGE}
+            src={EXTRA_EVENTS_IMAGE}
             alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
           ></img>
         </>
@@ -106,7 +106,7 @@ export default () => (
 
           <img
             className="p-20 lg:hidden"
-            src={MALLMORE_IMAGE}
+            src={EXTRA_EVENTS_IMAGE}
             alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
           ></img>
 
