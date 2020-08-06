@@ -33,11 +33,14 @@ export default () => (
             <li>
               <a href="/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
             </li>
+            <li>
+              <a href="/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
+            </li>
           </ul>
           <img
             className="pr-10 pt-10 hidden lg:block"
             src={EXTRA_EVENTS_IMAGE}
-            alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
+            alt="Extra events in person in the isle of man"
           ></img>
         </>
       }
