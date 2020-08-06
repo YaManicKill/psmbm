@@ -36,6 +36,15 @@ export default () => (
             <li>
               <a href="/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
             </li>
+            <li>
+              <a href="/lost-leader-instructions.pdf">Lost Leader Instructions</a>
+            </li>
+            <li>
+              <a href="/lost-leader.ppsx">Lost Leader Powerpoint</a>
+            </li>
+            <li>
+              <a href="/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
+            </li>
           </ul>
           <img
             className="pr-10 pt-10 hidden lg:block"
