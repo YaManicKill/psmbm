@@ -40,7 +40,7 @@ export default () => (
           <img
             className="pr-10 pt-10 hidden lg:block"
             src={EXTRA_EVENTS_IMAGE}
-            alt="Extra events in person in the isle of man"
+            alt="As well as the daily Beach Services and Age Group videos there will be 4 big events over the fornight for you to join in with virtually. Wednesday 5th August: Big Ball's big day out quiz. Friday 7th August: Lost leader challenge. Wednesday 12th August: Sand text competition. Friday 14th August: Ceilidh, at 7.30pm."
           ></img>
         </>
       }
