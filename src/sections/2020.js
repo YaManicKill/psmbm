@@ -45,6 +45,9 @@ export default () => (
             <li>
               <a href="/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
             </li>
+            <li>
+              <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
+            </li>
           </ul>
           <img
             className="pr-10 pt-10 hidden lg:block"
