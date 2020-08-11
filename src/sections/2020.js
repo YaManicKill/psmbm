@@ -3,8 +3,9 @@ import INFO_2020 from '../static/2020-info.pdf';
 import LOCAL_2020 from '../static/2020-local.pdf';
 
 import SplitView from '../components/SplitView';
-import EXTRA_EVENTS_IMAGE from '../static/2020-extra-events.jpg';
 import Contact from './contact';
+
+import SAND_TEXT_INSTRUCTIONS_IMAGE from '../static/sand-text-instructions.png';
 
 export default () => (
   <section id="2020">
@@ -49,11 +50,13 @@ export default () => (
               <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
             </li>
           </ul>
-          <img
-            className="pr-10 pt-10 hidden lg:block"
-            src={EXTRA_EVENTS_IMAGE}
-            alt="As well as the daily Beach Services and Age Group videos there will be 4 big events over the fornight for you to join in with virtually. Wednesday 5th August: Big Ball's big day out quiz. Friday 7th August: Lost leader challenge. Wednesday 12th August: Sand text competition. Friday 14th August: Ceilidh, at 7.30pm."
-          ></img>
+          <a href="/sand-text.pdf">
+            <img
+              className="pr-10 pt-10 hidden lg:block"
+              src={SAND_TEXT_INSTRUCTIONS_IMAGE}
+              alt="Sand text instructions, click to download pdf"
+            ></img>
+          </a>
         </>
       }
       right={
@@ -119,11 +122,13 @@ export default () => (
             More information here: <a href={LOCAL_2020}>Local-Events.pdf</a>
           </p>
 
-          <img
-            className="p-20 lg:hidden"
-            src={EXTRA_EVENTS_IMAGE}
-            alt="Front door of Mallmore, where beach mission normally takes place. Scripture union banner flying"
-          ></img>
+          <a href="/sand-text.pdf">
+            <img
+              className="p-20 lg:hidden"
+              src={SAND_TEXT_INSTRUCTIONS_IMAGE}
+              alt="Sand text instructions, click to download pdf"
+            ></img>
+          </a>
 
           <div className="mt-5">
             <Contact></Contact>
