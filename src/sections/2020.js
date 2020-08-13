@@ -49,6 +49,11 @@ export default () => (
             <li>
               <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
             </li>
+            <li>
+              <a href="/jelly-tots-heroes-day-8-colouring.pdf">
+                Jelly Tots and Heroes Day 8 Colouring Sheet
+              </a>
+            </li>
           </ul>
           <a href="/sand-text.pdf">
             <img
