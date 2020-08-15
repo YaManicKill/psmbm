@@ -4,7 +4,7 @@ import SplitView from '../components/SplitView';
 import Heading from '../components/Heading';
 import Contact from './contact';
 
-import MALLMORE_IMAGE from '../static/mallmore.jpg';
+import MALLMORE_IMAGE from '../images/mallmore.jpg';
 
 export default () => (
   <section id="2020">
