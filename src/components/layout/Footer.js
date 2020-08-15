@@ -14,7 +14,7 @@ const Footer = () => (
           <a href="https://www.scriptureunion.org.uk/">Scripture Union England and Wales</a>
         </p>
 
-        <div className="mt-6 lg:mt-3 grid grid-flow-col grid-cols-4 lg:grid-cols-5 col-span-2 lg:col-span-1">
+        <div className="mt-6 lg:mt-2 grid grid-flow-col grid-cols-4 lg:grid-cols-5 col-span-2 lg:col-span-1">
           <div></div>
           <div>
             <a href="https://www.facebook.com/psmbeachmission/">
