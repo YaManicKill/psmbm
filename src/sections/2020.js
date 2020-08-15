@@ -1,75 +1,40 @@
 import React from 'react';
-import INFO_2020 from '../static/2020-info.pdf';
-import LOCAL_2020 from '../static/2020-local.pdf';
 
 import SplitView from '../components/SplitView';
+import Heading from '../components/Heading';
 import Contact from './contact';
 
-import SAND_TEXT_INSTRUCTIONS_IMAGE from '../static/sand-text-instructions.png';
+import MALLMORE_IMAGE from '../static/mallmore.jpg';
 
 export default () => (
   <section id="2020">
+    <div className="pt-32 -mt-32 lg:pt-20 lg:-mt-20"></div>
     <SplitView
-      left={
-        <>
-          <p className="text-xl lg:text-1xl font-light">
-            With most team members unable to travel to the island, Beach Mission is going “Virtual”.
-          </p>
-          <p className="text-xl lg:text-1xl mt-6 font-light">
-            Virtually Beach Mission is 3rd – 14th August 2020
-          </p>
-
-          <ul className="px-5 list-disc mt-3 text-xl lg:text-1xl font-light">
-            <li>
-              <a href={INFO_2020}>More information</a>
-            </li>
-            <li>
-              <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary-su-beach-mission">
-                Registration
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/psmbeachmission">Facebook</a>
-            </li>
-            <li>
-              <a href="/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
-            </li>
-            <li>
-              <a href="/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
-            </li>
-            <li>
-              <a href="/lost-leader-instructions.pdf">Lost Leader Instructions</a>
-            </li>
-            <li>
-              <a href="/lost-leader.ppsx">Lost Leader Powerpoint</a>
-            </li>
-            <li>
-              <a href="/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
-            </li>
-            <li>
-              <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
-            </li>
-            <li>
-              <a href="/jelly-tots-heroes-day-8-colouring.pdf">
-                Jelly Tots and Heroes Day 8 Colouring Sheet
-              </a>
-            </li>
-          </ul>
-          <a href="/sand-text.pdf">
-            <img
-              className="pr-10 pt-10 hidden lg:block"
-              src={SAND_TEXT_INSTRUCTIONS_IMAGE}
-              alt="Sand text instructions, click to download pdf"
-            ></img>
-          </a>
-        </>
-      }
+      top={<Heading>Virtually Beach Mission 2020</Heading>}
       right={
         <>
-          <ul className="text-xl lg:text-1xl font-light">
-            <p className="text-xl lg:text-1xl font-light mb-5">
-              Video playlists will be updated as the weeks go on.
-            </p>
+          <p className="text-xl lg:text-1xl mt-6 font-light"></p>
+
+          <img
+            className="pr-10 hidden lg:block"
+            src={MALLMORE_IMAGE}
+            alt="Front door of Mallmore"
+          ></img>
+
+          <div className="mt-5 lg:hidden" id="contact">
+            <Contact></Contact>
+          </div>
+          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
+        </>
+      }
+      left={
+        <>
+          <ul className="text-xl lg:text-1xl font-light mt-5">
+            <li>
+              <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary-su-beach-mission">
+                You can still Register now
+              </a>
+            </li>
             <h1 className="text-xl font-bold leading-none mt-2 pb-2">All Age Videos:</h1>
             <li>
               <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
@@ -115,29 +80,32 @@ export default () => (
             </li>
           </ul>
 
-          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none mt-5">
-            Afternoon Events
-          </h1>
-          <p className="text-xl lg:text-1xl mt-6 font-light">
-            We are planning to run some afternoon events during the Beach Mission fortnight. Parents
-            of children aged 12 and under will need to stay on site because we don't have enough
-            team members to look after all the children.
-          </p>
-          <p className="text-xl lg:text-1xl mt-6 font-light">
-            More information here: <a href={LOCAL_2020}>Local-Events.pdf</a>
-          </p>
-
-          <a href="/sand-text.pdf">
-            <img
-              className="p-20 lg:hidden"
-              src={SAND_TEXT_INSTRUCTIONS_IMAGE}
-              alt="Sand text instructions, click to download pdf"
-            ></img>
-          </a>
-
-          <div className="mt-5">
-            <Contact></Contact>
-          </div>
+          <h1 className="text-xl font-bold leading-none mt-5">Resources:</h1>
+          <ul className="text-xl lg:text-1xl font-light mt-5">
+            <li>
+              <a href="/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
+            </li>
+            <li>
+              <a href="/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
+            </li>
+            <li>
+              <a href="/lost-leader-instructions.pdf">Lost Leader Instructions</a>
+            </li>
+            <li>
+              <a href="/lost-leader.ppsx">Lost Leader Powerpoint</a>
+            </li>
+            <li>
+              <a href="/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
+            </li>
+            <li>
+              <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
+            </li>
+            <li>
+              <a href="/jelly-tots-heroes-day-8-colouring.pdf">
+                Jelly Tots and Heroes Day 8 Colouring Sheet
+              </a>
+            </li>
+          </ul>
         </>
       }
     ></SplitView>

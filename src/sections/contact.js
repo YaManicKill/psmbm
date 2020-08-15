@@ -1,12 +1,13 @@
 import React from 'react';
 
-import SplitView from '../components/SplitView';
+import Heading from '../components/Heading';
 
 export default () => (
-  <section id="contact">
+  <>
+    <div className="pt-32 -mt-32 lg:pt-20 lg:-mt-20"></div>
     <div className="w-full">
-      <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none">Contact Us</h1>
-      <form className="contact px-8 mt-6 pb-8 mb-4" data-netlify="true" name="contact">
+      <Heading>Contact Us</Heading>
+      <form className="contact mt-10 pb-8 mb-4" data-netlify="true" name="contact">
         <input type="hidden" name="form-name" value="contact" />
         <div className="mb-4">
           <input
@@ -49,5 +50,5 @@ export default () => (
         </div>
       </form>
     </div>
-  </section>
+  </>
 );

@@ -1,5 +1,6 @@
 import React from 'react';
-import LOGO from '../../static/virtually-logo.jpg';
+import LOGO from '../../images/virtually-logo.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -7,8 +8,19 @@ const Header = () => (
       <div className="flex items-center">
         <img src={LOGO} className="h-12 sm:h-16"></img>
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-none ml-5">
-          Virtually Beach Mission
+          PSM Beach Mission
         </h1>
+      </div>
+      <div className="flex mt-4 sm:mt-0">
+        <AnchorLink className="px-4 hidden lg:block" href="#contactlg">
+          Contact
+        </AnchorLink>
+        <AnchorLink className="px-4 lg:hidden" href="#contact">
+          Contact
+        </AnchorLink>
+        <AnchorLink className="px-4" href="#2020">
+          Virtually Beach Mission
+        </AnchorLink>
       </div>
     </div>
   </header>
