@@ -30,15 +30,15 @@ export default () => (
       left={
         <>
           <ul className="text-xl lg:text-1xl font-light mt-5">
-            <li>
-              <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary-su-beach-mission">
-                You can still Register now
-              </a>
-            </li>
             <h1 className="text-xl font-bold leading-none mt-2 pb-2">All Age Videos:</h1>
             <li>
               <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIxNpr6KGZG67uIoh49YZNer">
                 Beach Services and Special Events
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyxkLYqai3sqQGU6T-mOEij">
+                Songs
               </a>
             </li>
             <h1 className="text-xl font-bold leading-none mt-2 pb-2">Age Group Videos:</h1>
