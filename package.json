@@ -9,7 +9,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "gatsby": "2.24.91",
+    "gatsby": "2.24.92",
     "gatsby-theme-codebushi": "1.0.0",
     "react": "17.0.1",
     "react-anchor-link-smooth-scroll": "1.0.12",
