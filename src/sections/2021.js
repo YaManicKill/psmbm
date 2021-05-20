@@ -4,6 +4,8 @@ import SplitView from '../components/SplitView';
 import Heading from '../components/Heading';
 import Contact from './contact';
 
+import MALLMORE_IMAGE from '../images/mallmore.jpg';
+
 export default () => (
   <section id="2021">
     <div className="pt-10 -mt-10" />
@@ -43,6 +45,17 @@ export default () => (
           <div className="mt-5 hidden lg:block" id="contactlg">
             <Contact />
           </div>
+          
+          <img
+            className="pr-10 hidden lg:block"
+            src={MALLMORE_IMAGE}
+            alt="Front door of Mallmore"
+          ></img>
+
+          <div className="mt-5 lg:hidden" id="contact">
+            <Contact></Contact>
+          </div>
+          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
         </>
       }
     />

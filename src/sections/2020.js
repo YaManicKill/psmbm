@@ -14,17 +14,6 @@ export default () => (
       right={
         <>
           <p className="text-xl lg:text-1xl mt-6 font-light"></p>
-
-          <img
-            className="pr-10 hidden lg:block"
-            src={MALLMORE_IMAGE}
-            alt="Front door of Mallmore"
-          ></img>
-
-          <div className="mt-5 lg:hidden" id="contact">
-            <Contact></Contact>
-          </div>
-          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
         </>
       }
       left={
@@ -101,9 +90,6 @@ export default () => (
               <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
             </li>
             <li>
-              <a href="/jelly-tots-heroes-day-8-colouring.pdf">
-                Jelly Tots and Heroes Day 8 Colouring Sheet
-              </a>
             </li>
           </ul>
         </>
