@@ -11,13 +11,19 @@ export default () => (
       left={
         <div className="mt-5">
           <Heading>Beach Mission 2021</Heading>
-          <p className="text-2xl lg:text-3xl mt-6 font-light">1st – 13th August</p>
+          <p className="text-2xl lg:text-3xl mt-6 font-light">1st – 7th August</p>
           <p className="text-l lg:text-xl mt-6 font-light">
-            We&apos;re not sure yet if we&apos;ll be able to run &quot;as normal&quot;, but
-            we&apos;re planning - as a minimum - to run some activities for all ages, for at least
-            one week, beginning on 1st August (covid restrictions permitting, of course!) If the
-            borders are still restricted, activities will be led by local team members. Keep the
-            dates free, and watch out for more information nearer the time.
+          Plans are well underway to run a programme of events for all ages (0-17) for one week this summer.
+          </p>
+          <p className="text-l lg:text-xl mt-6 font-light">
+          As a result of the continuing uncertainties regarding Border restrictions and Covid guidelines,
+          this year's Beach Mission will be scaled back compared to pre-Covid times,
+          but we are aiming to include as many of our Beach Mission favourite activities as possible.
+          We hope to have at least two sessions per day in four age groups, from Monday 2nd - Friday 6th August.
+          </p>
+          <p className="text-l lg:text-xl mt-6 font-light">
+          If team numbers and current guidelines permit, we may also add an event on Sunday 1st and/or Saturday 7th August.
+          More details, including how to book a place for your child(ren) will be made available in the coming weeks
           </p>
           <br />
           <Heading>What is Beach Mission?</Heading>
