@@ -13,9 +13,13 @@ export default () => (
     <p className="text-l lg:text-xl mt-6 font-light">
       The uncertainties and border restrictions mean that things will be scaled back a bit, but we
       are planning to include lots of favourite Beach Mission activities for all ages (0-17s).
-      Opening Event – Sunday 1st August – more information to follow.
     </p>
-    <p className="text-l lg:text-xl mt-6 font-light">Daily sessions in four age groups:</p>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      <strong>Opening Event</strong> – Sunday 1st August – more information to follow.
+    </p>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      <strong>Daily sessions</strong> in four age groups:
+    </p>
     <img
       className="pr-10"
       src={SESSION_TIMES}
@@ -27,7 +31,7 @@ export default () => (
       "
     ></img>
     <p className="text-l lg:text-xl mt-6 font-light">
-      Closing Event – Saturday 7th August – more information to follow.
+      <strong>Closing Event</strong> – Saturday 7th August – more information to follow.
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
       The online registration site is nearly ready. Watch this page for more information. Please
