@@ -5,6 +5,10 @@ import Heading from '../components/Heading';
 export default () => (
   <section id="2020">
     <Heading>Virtually Beach Mission</Heading>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      In 2020, Beach Mission happened virtually. We would like to keep the sessions live for people
+      to watch.
+    </p>
     <ul className="text-xl lg:text-1xl font-light mt-5">
       <h1 className="text-xl font-bold leading-none mt-2 pb-2">All Age Videos:</h1>
       <li>
@@ -13,9 +17,7 @@ export default () => (
         </a>
       </li>
       <li>
-        <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyxkLYqai3sqQGU6T-mOEij">
-          Songs
-        </a>
+        <a href="https://www.youtube.com/playlist?list=PLztoJU0d3XIyxkLYqai3sqQGU6T-mOEij">Songs</a>
       </li>
       <h1 className="text-xl font-bold leading-none mt-2 pb-2">Age Group Videos:</h1>
       <li>
@@ -76,8 +78,7 @@ export default () => (
       <li>
         <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
       </li>
-      <li>
-      </li>
+      <li></li>
     </ul>
   </section>
 );

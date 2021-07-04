@@ -12,10 +12,7 @@ const Header = () => (
         </h1>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4 hidden lg:block" href="#contactlg">
-          Contact
-        </AnchorLink>
-        <AnchorLink className="px-4 lg:hidden" href="#contact">
+        <AnchorLink className="px-4" href="#contact">
           Contact
         </AnchorLink>
         <AnchorLink className="px-4" href="#2020">
