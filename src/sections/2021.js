@@ -15,6 +15,30 @@ export default () => (
       are planning to include lots of favourite Beach Mission activities for all ages (0-17s).
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
+      <strong>
+        The booking system is now open. If your child(ren) would like to join in, please register
+        them as soon as possible, and not later than Sunday 18th July.
+      </strong>
+    </p>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      <strong>
+        We will continue to accept registrations after that date <u>if we still have room</u>, but
+        this can’t be guaranteed.
+      </strong>{' '}
+      This is because our team is significantly reduced in size this summer because of the border
+      restrictions.
+    </p>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      Book here:{' '}
+      <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary">
+        https://content.scriptureunion.org.uk/holiday/port-st-mary
+      </a>
+    </p>
+    <br />
+    <h2 className={`text-xl lg:text-2xl xl:text-3xl font-bold leading-none`}>
+      Programme Information
+    </h2>
+    <p className="text-l lg:text-xl mt-6 font-light">
       <strong>Opening Event</strong> – Sunday 1st August – more information to follow.
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
