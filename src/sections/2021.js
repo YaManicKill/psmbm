@@ -57,9 +57,5 @@ export default () => (
     <p className="text-l lg:text-xl mt-6 font-light">
       <strong>Closing Event</strong> – Saturday 7th August – more information to follow.
     </p>
-    <p className="text-l lg:text-xl mt-6 font-light">
-      The online registration site is nearly ready. Watch this page for more information. Please
-      plan to register your child(ren) as soon as possible after the bookings have opened.
-    </p>
   </section>
 );
