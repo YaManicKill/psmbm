@@ -15,24 +15,20 @@ export default () => (
       are planning to include lots of favourite Beach Mission activities for all ages (0-17s).
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
-      <strong>
-        The booking system is now open. If your child(ren) would like to join in, please register
-        them as soon as possible, and not later than Sunday 18th July.
-      </strong>
+      We've had a great response for this year's Beach Mission with lots of children and young
+      people now registered. Sadly this means that we've had to close bookings because we don't have
+      enough team members to take any more children.
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
-      <strong>
-        We will continue to accept registrations after that date <u>if we still have room</u>, but
-        this can’t be guaranteed.
-      </strong>{' '}
-      This is because our team is significantly reduced in size this summer because of the border
-      restrictions.
+      Having said that, there is no limit to the number of families with 0-4 year olds who can come,
+      because they need to have a parent or carer with them. And we can also take a lot more
+      secondary aged young people, but only at our evening sessions when extra team members will be
+      available.
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
-      Book here:{' '}
-      <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary">
-        https://content.scriptureunion.org.uk/holiday/port-st-mary
-      </a>
+      If you would like to register a child who is not at school yet for our afternoon session, or a
+      secondary aged child (for evenings only), please send a message via the contact form, giving
+      the names and ages of the child(ren).
     </p>
     <br />
     <h2 className={`text-xl lg:text-2xl xl:text-3xl font-bold leading-none`}>
