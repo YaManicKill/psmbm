@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 
 import BM2020 from '../sections/2020';
-import BM2021 from '../sections/2021';
+import BM2022 from '../sections/2022';
 import SplitView from '../components/SplitView';
 import Contact from '../sections/contact';
 import Heading from '../components/Heading';
@@ -15,10 +15,16 @@ const Index = () => (
     <SplitView
       left={
         <div className="mt-5">
-          <BM2021></BM2021>
+          <BM2022></BM2022>
           <div className="mt-5" id="contact">
             <Contact></Contact>
           </div>
+          <br />
+          <img
+            className="pr-10 hidden lg:block"
+            src={MALLMORE_IMAGE}
+            alt="Front door of Mallmore"
+          ></img>
           <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
         </div>
       }
@@ -33,12 +39,6 @@ const Index = () => (
             attend daily to enjoy activities including games, crafts, drama, interactive Bible
             teaching, music and outings.
           </p>
-          <br />
-          <img
-            className="pr-10 hidden lg:block"
-            src={MALLMORE_IMAGE}
-            alt="Front door of Mallmore"
-          ></img>
           <br />
           <BM2020></BM2020>
         </div>
