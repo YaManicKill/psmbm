@@ -16,16 +16,6 @@ const Index = () => (
       left={
         <div className="mt-5">
           <BM2022></BM2022>
-          <div className="mt-5" id="contact">
-            <Contact></Contact>
-          </div>
-          <br />
-          <img
-            className="pr-10 hidden lg:block"
-            src={MALLMORE_IMAGE}
-            alt="Front door of Mallmore"
-          ></img>
-          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
         </div>
       }
       right={
@@ -40,6 +30,16 @@ const Index = () => (
             teaching, music and outings.
           </p>
           <br />
+          <div className="mt-5" id="contact">
+            <Contact></Contact>
+          </div>
+          <br />
+          <img
+            className="pr-10 hidden lg:block"
+            src={MALLMORE_IMAGE}
+            alt="Front door of Mallmore"
+          ></img>
+          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
           <BM2020></BM2020>
         </div>
       }
