@@ -2,6 +2,7 @@ import React from 'react';
 
 import Heading from '../components/Heading';
 import SESSION_TIMES from '../images/Session-Times.jpg';
+import FAMILY_EVENTS from '../images/Family-events-poster-1.jpg';
 
 export default () => (
   <section id="2021">
@@ -22,6 +23,7 @@ export default () => (
     </p>
     <br />
     <img src={SESSION_TIMES} />
+    <img src={FAMILY_EVENTS} />
     <p className="text-l lg:text-xl mt-6 font-light">
       All children and young people must be registered for safeguarding reasons and to give us
       contact details and other important information. Please book a place for your child(ren)
