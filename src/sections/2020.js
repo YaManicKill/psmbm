@@ -6,8 +6,7 @@ export default () => (
   <section id="2020">
     <Heading>Virtually Beach Mission</Heading>
     <p className="text-l lg:text-xl mt-6 font-light">
-      In 2020, Beach Mission happened virtually. We would like to keep the sessions live for people
-      to watch.
+      In 2020, Beach Mission happened virtually. The sessions are still available for you to watch at these links:
     </p>
     <ul className="text-xl lg:text-1xl font-light mt-5">
       <h1 className="text-xl font-bold leading-none mt-2 pb-2">All Age Videos:</h1>
