@@ -1,5 +1,5 @@
 import React from 'react';
-import LOGO from '../../images/virtually-logo.jpg';
+import LOGO from '../../images/logo.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => (
