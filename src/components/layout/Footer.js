@@ -10,8 +10,7 @@ const Footer = () => (
       <div className="grid grid-cols-5 px-3">
         <p className="col-span-3 lg:col-span-4 mt-5">
           The Port St Mary SU Beach Mission is run by{' '}
-          <a href="http://www.sumt.im/">Scripture Union on the Isle of Man (SUMT)</a> and{' '}
-          <a href="https://www.scriptureunion.org.uk/">Scripture Union England and Wales</a>
+          <a href="http://www.sumt.im/">Scripture Union on the Isle of Man (SUMT)</a>
         </p>
 
         <div className="mt-6 lg:mt-2 grid grid-flow-col grid-cols-4 lg:grid-cols-5 col-span-2 lg:col-span-1">

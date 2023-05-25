@@ -7,7 +7,7 @@ import SplitView from '../components/SplitView';
 import Contact from '../sections/contact';
 import Heading from '../components/Heading';
 
-import MALLMORE_IMAGE from '../images/mallmore.jpg';
+import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg';
 
 const Index = () => (
   <Layout>
@@ -35,11 +35,11 @@ const Index = () => (
           </div>
           <br />
           <img
-            className="pr-10 hidden lg:block"
-            src={MALLMORE_IMAGE}
-            alt="Front door of Mallmore"
+            className="p-5 pr-10 hidden lg:block"
+            src={DRAMA_IMAGE}
+            alt="Drama at a beach service during beach mission"
           ></img>
-          <img className="p-10 lg:hidden" src={MALLMORE_IMAGE} alt="Front door of Mallmore"></img>
+          <img className="p-10 lg:hidden" src={DRAMA_IMAGE} alt="Drama at a beach service during beach mission"></img>
           <BM2020></BM2020>
         </div>
       }
