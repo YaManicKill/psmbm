@@ -23,8 +23,7 @@ export default () => (
       join in. There will be activities every weekday for 0-17 year olds in six different age
       groups. Everyone is welcome, and activities are free (apart from a contribution for the
       outing). Activities include games, crafts, competitions, an outing, and interactive Bible
-      based activities appropriate for each age group. Information about how to register will be
-      available in June,
+      based activities appropriate for each age group.
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
       Children and young people are welcome to attend whichever sessions they wish. Check out our
@@ -35,8 +34,7 @@ export default () => (
     {/* <img src={FAMILY_EVENTS} /> */}
     <p className="text-l lg:text-xl mt-6 font-light">
       All children and young people must be <a href="/register">registered</a> for safeguarding reasons and to give us
-      contact details and other important information. A link to the registration form will be
-      available in June. In the meantime, if you have any questions, please use the contact form.
+      contact details and other important information. If you have any questions, please use the contact form.
     </p>
   </section>
 );
