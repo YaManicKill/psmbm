@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 
 import BM2020 from '../sections/2020';
-import BM2022 from '../sections/2022';
+import BM2023 from '../sections/2023';
 import SplitView from '../components/SplitView';
 import Contact from '../sections/contact';
 import Heading from '../components/Heading';
@@ -15,7 +15,7 @@ const Index = () => (
     <SplitView
       left={
         <div className="mt-5">
-          <BM2022></BM2022>
+          <BM2023></BM2023>
         </div>
       }
       right={
