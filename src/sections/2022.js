@@ -8,11 +8,11 @@ export default () => (
   <section id="2021">
     <Heading>Beach Mission 2023</Heading>
     <p className="text-2xl lg:text-3xl mt-6 font-light">30th July – 11th August</p>
-    {/* <p className="text-l lg:text-xl mt-6 font-light">
-      <a href="https://content.scriptureunion.org.uk/holiday/port-st-mary-su-beach-mission">
+    <p className="text-l lg:text-xl mt-6 font-light">
+      <a href="/register">
         Register Here
       </a>
-    </p> */}
+    </p>
     <p className="text-l lg:text-xl mt-6 font-light">
       Beach Mission will be back this summer, and all children and young people will be welcome to
       join in. There will be activities every weekday for 0-17 year olds in six different age
@@ -29,7 +29,7 @@ export default () => (
     <img src={SESSION_TIMES} />
     {/* <img src={FAMILY_EVENTS} /> */}
     <p className="text-l lg:text-xl mt-6 font-light">
-      All children and young people must be registered for safeguarding reasons and to give us
+      All children and young people must be <a href="/register">registered</a> for safeguarding reasons and to give us
       contact details and other important information. A link to the registration form will be
       available in June. In the meantime, if you have any questions, please use the contact form.
     </p>
