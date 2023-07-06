@@ -10,7 +10,12 @@ export default () => (
     <p className="text-2xl lg:text-3xl mt-6 font-light">30th July – 11th August</p>
     <p className="text-l lg:text-xl mt-6 font-light">
       <a href="/register">
-        Register Here
+        Register Here.
+      </a>
+    </p>
+    <p className="text-l lg:text-xl mt-6 font-light">
+      <a href="/InformationForParents2023.pdf">
+        Important information for parents leaflet.
       </a>
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
