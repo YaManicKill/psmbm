@@ -31,18 +31,15 @@ export const IndexPageTemplate = ({ title }) => (
             attend daily to enjoy activities including games, crafts, drama, interactive Bible
             teaching, music and outings.
           </p>
-          <br />
-          <div className="mt-5" id="contact">
-            <Contact></Contact>
-          </div>
-          <br />
+
           <img
-            className="p-5 pr-10 hidden lg:block"
+            className="p-5 pr-10 lg:p-10"
             src={DRAMA_IMAGE}
             alt="Drama at a beach service during beach mission"
           ></img>
-          <img className="p-10 lg:hidden" src={DRAMA_IMAGE} alt="Drama at a beach service during beach mission"></img>
-          <BM2020></BM2020>
+          <div className="mt-5" id="contact">
+            <Contact></Contact>
+          </div>
         </div>
       }
     />
