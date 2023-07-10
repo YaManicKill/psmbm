@@ -4,9 +4,9 @@ import Heading from '../components/Heading';
 import SESSION_TIMES from '../images/Session-Times.jpg';
 import FAMILY_EVENTS from '../images/Family-events-poster-1.jpg';
 
-export default () => (
+export default ({title}) => (
   <section id="2021">
-    <Heading>Beach Mission 2023</Heading>
+    <Heading>{title}</Heading>
     <p className="text-2xl lg:text-3xl mt-6 font-light">30th July – 11th August</p>
     <p className="text-l lg:text-xl mt-6 font-light">
       <a href="/register">
@@ -14,7 +14,7 @@ export default () => (
       </a>
     </p>
     <p className="text-l lg:text-xl mt-6 font-light">
-      <a href="/InformationForParents2023.pdf">
+      <a href="/files/InformationForParents2023.pdf">
         Important information for parents leaflet.
       </a>
     </p>

@@ -60,22 +60,22 @@ export default () => (
     <h1 className="text-xl font-bold leading-none mt-5">Resources:</h1>
     <ul className="text-xl lg:text-1xl font-light mt-5">
       <li>
-        <a href="/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
+        <a href="/files/Big-Ball-quiz.pdf">Big Ball's Big Day Out Quiz</a>
       </li>
       <li>
-        <a href="/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
+        <a href="/files/Big-Ball-answers.pdf">Big Ball's Big Day Out Quiz Answers</a>
       </li>
       <li>
-        <a href="/lost-leader-instructions.pdf">Lost Leader Instructions</a>
+        <a href="/files/lost-leader-instructions.pdf">Lost Leader Instructions</a>
       </li>
       <li>
-        <a href="/lost-leader.ppsx">Lost Leader Powerpoint</a>
+        <a href="/files/lost-leader.ppsx">Lost Leader Powerpoint</a>
       </li>
       <li>
-        <a href="/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
+        <a href="/files/lost-leader.pdf">Lost Leader PDF (for those who can't view powerpoints)</a>
       </li>
       <li>
-        <a href="/lost-leader-answers.pdf">Lost Leader Answers</a>
+        <a href="/files/lost-leader-answers.pdf">Lost Leader Answers</a>
       </li>
       <li></li>
     </ul>

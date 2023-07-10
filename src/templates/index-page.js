@@ -1,4 +1,6 @@
 import React from 'react';
+import { graphql } from 'gatsby'
+import PropTypes from "prop-types";
 import Layout from '../components/layout/Layout';
 
 import BM2020 from '../sections/2020';
@@ -9,13 +11,13 @@ import Heading from '../components/Heading';
 
 import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg';
 
-const Index = () => (
-  <Layout>
+export const IndexPageTemplate = ({ title }) => (
+  <>
     <div className="pt-10 -mt-10" />
     <SplitView
       left={
         <div className="mt-5">
-          <BM2023></BM2023>
+          <BM2023 title={title}></BM2023>
         </div>
       }
       right={
@@ -44,7 +46,42 @@ const Index = () => (
         </div>
       }
     />
-  </Layout>
+  </>
 );
 
-export default Index;
+IndexPageTemplate.propTypes = {
+  title: PropTypes.string,
+};
+
+const IndexPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+
+  return (
+    <Layout>
+      <IndexPageTemplate
+        title={frontmatter.title}
+      />
+    </Layout>
+  );
+};
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
+};
+
+export default IndexPage;
+
+export const pageQuery = graphql`
+  query($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`
