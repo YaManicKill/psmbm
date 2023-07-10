@@ -1,5 +1,5 @@
 ---
 templateKey: index-page
-title: Beach Mission 2023
+title: PSM Beach Mission 2023
 slug: /
 ---
