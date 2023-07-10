@@ -12,6 +12,6 @@ collections:
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
-        name: "index"\\\
+        name: "index"
         fields:
           - { label: Title, name: title, widget: string }
