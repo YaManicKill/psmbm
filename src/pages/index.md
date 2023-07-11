@@ -1,6 +1,7 @@
 ---
 templateKey: index-page
 title: Beach Mission 2023
+subheading: 30th July – 11th August
 slug: /
 intro: >-
   [Register Here](/register)\

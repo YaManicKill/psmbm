@@ -4,12 +4,8 @@ import PropTypes from "prop-types";
 import Layout from '../components/layout/Layout';
 
 import BM2020 from '../sections/2020';
-import BM2023 from '../sections/2023';
 import SplitView from '../components/SplitView';
 import Contact from '../sections/contact';
-import Heading from '../components/Heading';
-
-import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg';
 
 export const VirtualPageTemplate = ({ title }) => (
   <>

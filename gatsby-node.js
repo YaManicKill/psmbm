@@ -8,10 +8,8 @@ exports.createPages = async function ({ actions, graphql }) {
           node {
             id
             frontmatter {
-              title
               slug
               templateKey
-              intro
             }
           }
         }

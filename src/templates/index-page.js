@@ -1,23 +1,22 @@
-import React from 'react';
+import React from 'react'
 import { graphql } from 'gatsby'
-import PropTypes from "prop-types";
-import Layout from '../components/layout/Layout';
+import PropTypes from "prop-types"
+import Layout from '../components/layout/Layout'
 
-import BM2020 from '../sections/2020';
-import BM2023 from '../sections/2023';
-import SplitView from '../components/SplitView';
-import Contact from '../sections/contact';
-import Heading from '../components/Heading';
+import BM2023 from '../sections/2023'
+import SplitView from '../components/SplitView'
+import Contact from '../sections/contact'
+import Heading from '../components/Heading'
 
-import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg';
+import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg'
 
-export const IndexPageTemplate = ({ title, intro }) => (
+export const IndexPageTemplate = ({ title, subheading, intro }) => (
   <>
     <div className="pt-10 -mt-10" />
     <SplitView
       left={
         <div className="mt-5">
-          <BM2023 title={title} intro={intro}></BM2023>
+          <BM2023 title={title} subheading={subheading} intro={intro}></BM2023>
         </div>
       }
       right={
@@ -48,6 +47,7 @@ export const IndexPageTemplate = ({ title, intro }) => (
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
+  subheading: PropTypes.string,
   intro: PropTypes.string
 };
 
@@ -58,6 +58,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         title={frontmatter.title}
+        subheading={frontmatter.subheading}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -80,6 +81,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subheading
         intro
       }
     }
