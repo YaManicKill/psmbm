@@ -11,17 +11,15 @@ exports.createPages = async function ({ actions, graphql }) {
               title
               slug
               templateKey
+              intro
             }
           }
         }
       }
     }
   `)
-  console.log("TEST2")
-  console.log({data})
   data.allMarkdownRemark.edges.forEach(edge => {
     const id = edge.node.id
-    console.log(edge)
     actions.createPage({
       path: edge.node.frontmatter.slug,
       component: path.resolve(

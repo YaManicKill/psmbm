@@ -11,13 +11,13 @@ import Heading from '../components/Heading';
 
 import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg';
 
-export const IndexPageTemplate = ({ title }) => (
+export const IndexPageTemplate = ({ title, intro }) => (
   <>
     <div className="pt-10 -mt-10" />
     <SplitView
       left={
         <div className="mt-5">
-          <BM2023 title={title}></BM2023>
+          <BM2023 title={title} intro={intro}></BM2023>
         </div>
       }
       right={
@@ -48,6 +48,7 @@ export const IndexPageTemplate = ({ title }) => (
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
+  intro: PropTypes.string
 };
 
 const IndexPage = ({ data }) => {
@@ -57,6 +58,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         title={frontmatter.title}
+        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -78,6 +80,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        intro
       }
     }
   }
