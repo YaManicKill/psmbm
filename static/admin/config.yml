@@ -1,6 +1,5 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: test-repo
 
 local_backend: true
 media_folder: static/files
@@ -14,6 +13,11 @@ collections:
         label: "Homepage"
         name: "index"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
+            - label: "Main"
+              name: "main"
+              widget: "object"
+              collapsed: true
+              fields:   
+                - { label: Title, name: title, widget: string }
+                - { label: Subheading, name: subheading, widget: string }
+                - { label: Intro, name: intro, widget: markdown }

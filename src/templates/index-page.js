@@ -10,7 +10,7 @@ import Heading from '../components/Heading'
 
 import DRAMA_IMAGE from '../images/Beach-Service-drama.jpg'
 
-export const IndexPageTemplate = ({ title, subheading, intro }) => (
+const IndexPageTemplate = ({ title, subheading, intro }) => (
   <>
     <div className="pt-10 -mt-10" />
     <SplitView
@@ -57,9 +57,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        title={frontmatter.title}
-        subheading={frontmatter.subheading}
-        intro={frontmatter.intro}
+        title={frontmatter.main?.title}
+        subheading={frontmatter.main?.subheading}
+        intro={frontmatter.main?.intro}
       />
     </Layout>
   );
@@ -80,9 +80,12 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
-        subheading
-        intro
+        slug
+        main {
+          title
+          subheading
+          intro
+        }
       }
     }
   }

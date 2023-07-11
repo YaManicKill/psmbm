@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import IndexPage from '../../templates/index-page'
 import '../../css/tailwind.css';
 
 const IndexPagePreview = ({ entry, getAsset }) => {
@@ -8,10 +8,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
 
   if (data) {
     return (
-      <IndexPageTemplate
-        title={data.title}
-        subheading={data.subheading}
-        intro={data.intro}
+      <IndexPage
+        data={{markdownRemark: {frontmatter: data}}}
       />
     )
   } else {
