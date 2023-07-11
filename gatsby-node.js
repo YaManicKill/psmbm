@@ -1,32 +1,36 @@
 const path = require('path')
 
 exports.createPages = async function ({ actions, graphql }) {
-  const {data} = await graphql(`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            id
-            frontmatter {
-              slug
-              templateKey
-            }
-          }
-        }
-      }
-    }
-  `)
-  data.allMarkdownRemark.edges.forEach(edge => {
-    const id = edge.node.id
-    actions.createPage({
-      path: edge.node.frontmatter.slug,
-      component: path.resolve(
-        `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-      ),
-      // additional data can be passed via context
-      context: {
-        id,
-      },
-    })
-  })
+	const { data } = await graphql(`
+		query {
+			allFile(filter: { sourceInstanceName: { eq: "pages" }, absolutePath: { regex: "/md$/" } }) {
+				edges {
+					node {
+						sourceInstanceName
+						absolutePath
+						childMarkdownRemark {
+							id
+							frontmatter {
+								templateKey
+								slug
+							}
+						}
+					}
+				}
+			}
+		}
+	`)
+	data.allFile.edges.forEach((edge) => {
+		const id = edge.node.childMarkdownRemark.id
+		actions.createPage({
+			path: edge.node.childMarkdownRemark.frontmatter.slug,
+			component: path.resolve(
+				`src/templates/${String(edge.node.childMarkdownRemark.frontmatter.templateKey)}.js`,
+			),
+			// additional data can be passed via context
+			context: {
+				id,
+			},
+		})
+	})
 }
