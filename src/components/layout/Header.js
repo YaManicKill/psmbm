@@ -17,8 +17,10 @@ const Header = () => (
         <a className="px-4" href="/virtual">
           Virtually Beach Mission
         </a>
-        <a href="/register"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <a
+          href="/register"
+          className="bg-primary-default hover:bg-primary-darker text-white hover:text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        >
           Register
         </a>
       </div>

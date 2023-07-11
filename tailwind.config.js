@@ -3,16 +3,14 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          lighter: 'hsl(186, 100%, 33%)',
-          default: 'hsl(186, 100%, 33%)',
-          darker: 'hsl(186, 100%, 33%)'
-        }
-      }
-    }
+          lighter: '#7080fc',
+          default: '#0C27FA',
+          darker: '#03159d',
+        },
+      },
+    },
   },
   variants: {},
   plugins: [],
-  content: [
-    './src/**/*.{html,js}'
-  ]
+  content: ['./src/**/*.{html,js}'],
 };
