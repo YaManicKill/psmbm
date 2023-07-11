@@ -7,6 +7,20 @@ media_folder: static/files
 public_folder: /files
 
 collections:
+  - name: 'global'
+    label: 'Global'
+    files:
+      - file: 'src/global/header.md'
+        label: 'Header'
+        name: 'header'
+        fields:
+          - { label: 'Registration', name: registration, widget: select, options: ['on', 'off'] }
+          - label: 'Links'
+            name: 'links'
+            widget: 'list'
+            fields:
+              - { label: 'Text', name: 'name', widget: string }
+              - { label: 'Url', name: 'url', widget: string }
   - name: 'pages'
     label: 'Pages'
     files:
