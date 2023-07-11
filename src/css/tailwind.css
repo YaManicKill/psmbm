@@ -1,10 +1,10 @@
 @tailwind base;
 
 a {
-  @apply text-primary-default;
+	@apply text-primary-default;
 }
 a:hover {
-  @apply text-primary-darker;
+	@apply text-primary-darker;
 }
 
 @tailwind components;

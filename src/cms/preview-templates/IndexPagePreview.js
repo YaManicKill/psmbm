@@ -1,27 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import IndexPage from '../../templates/index-page'
-import '../../css/tailwind.css';
+import '../../css/tailwind.css'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS()
+	const data = entry.getIn(['data']).toJS()
 
-  if (data) {
-    return (
-      <IndexPage
-        data={{markdownRemark: {frontmatter: data}}}
-      />
-    )
-  } else {
-    return <div>Loading...</div>
-  }
+	if (data) {
+		return <IndexPage data={{ markdownRemark: { frontmatter: data } }} />
+	} else {
+		return <div>Loading...</div>
+	}
 }
 
 IndexPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
-  getAsset: PropTypes.func,
+	entry: PropTypes.shape({
+		getIn: PropTypes.func,
+	}),
+	getAsset: PropTypes.func,
 }
 
 export default IndexPagePreview

@@ -1,4 +1,8 @@
 {
-  "printWidth": 100,
-  "singleQuote": true
+	"printWidth": 100,
+	"singleQuote": true,
+	"useTabs": true,
+	"semi": false,
+	"arrowParens": "always",
+	"bracketSameLine": true
 }
