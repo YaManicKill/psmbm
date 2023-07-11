@@ -10,6 +10,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     return (
       <IndexPageTemplate
         title={data.title}
+        subheading={data.subheading}
+        intro={data.intro}
       />
     )
   } else {
