@@ -1,9 +1,19 @@
+const tailwindcss = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-theme-codebushi`,
+      resolve: `gatsby-plugin-postcss`,
       options: {
-        tailwindConfig: `tailwind.config.js`
+        postCssPlugins: [tailwindcss('tailwind.config.js'), autoprefixer]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        tailwind: true,
+        purgeOnly: [`src/css/tailwind.css`]
       }
     },
     {

@@ -7,7 +7,7 @@ import BM2020 from '../sections/2020';
 import SplitView from '../components/SplitView';
 import Contact from '../sections/contact';
 
-export const VirtualPageTemplate = ({ title }) => (
+const VirtualPageTemplate = () => (
   <>
     <div className="pt-10 -mt-10" />
     <SplitView
