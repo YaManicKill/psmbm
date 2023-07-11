@@ -4,7 +4,7 @@ slug: /
 main:
   title: Beach Mission 2023
   subheading: 30th July – 11th August
-  intro: >-
+  content: >-
     [Register Here](/register)\
 
     [Important information for parents leaflet](/files/InformationForParents2023.pdf)  
@@ -20,4 +20,15 @@ main:
 
 
     All children and young people must be [registered](/register) for safeguarding reasons and to give us contact details and other important information. If you have any questions, please use the contact form.
+about:
+  title: What Is Beach Mission?
+  content: >-
+    The Port St Mary SU Beach Mission was founded in 1901 and is a well-established event
+    with excellent support from local authorities and churches. Since the decline of tourism
+    in the area, the mission now works almost entirely with local children and young people,
+    some of whom travel from other parts of the island. Around 250 children and young people
+    attend daily to enjoy activities including games, crafts, drama, interactive Bible
+    teaching, music and outings.
+
+    ![Drama at a beach service during beach mission](/files/Beach-Service-drama.jpg)
 ---

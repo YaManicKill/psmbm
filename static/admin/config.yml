@@ -1,23 +1,31 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: master
 
 local_backend: true
 media_folder: static/files
 public_folder: /files
 
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: 'pages'
+    label: 'Pages'
     files:
-      - file: "src/pages/index.md"
-        label: "Homepage"
-        name: "index"
+      - file: 'src/pages/index.md'
+        label: 'Homepage'
+        name: 'index'
         fields:
-            - label: "Main"
-              name: "main"
-              widget: "object"
-              collapsed: true
-              fields:   
-                - { label: Title, name: title, widget: string }
-                - { label: Subheading, name: subheading, widget: string }
-                - { label: Intro, name: intro, widget: markdown }
+          - label: 'Main'
+            name: 'main'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subheading, name: subheading, widget: string }
+              - { label: Content, name: content, widget: markdown }
+          - label: 'About'
+            name: 'about'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
