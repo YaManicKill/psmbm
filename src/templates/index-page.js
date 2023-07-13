@@ -9,30 +9,36 @@ import SplitView from '../components/SplitView'
 import Contact from '../sections/contact'
 import Heading from '../components/Heading'
 
+export const IndexPageTemplate = ({ frontmatter }) => {
+	return (
+		<SplitView
+			left={
+				<div className="mt-5">
+					<BM2023
+						title={frontmatter.main?.title}
+						subheading={frontmatter.main?.subheading}
+						content={frontmatter.main?.content}></BM2023>
+				</div>
+			}
+			right={
+				<div className="mt-5">
+					<Heading>{frontmatter.about?.title}</Heading>
+					<Markdown children={frontmatter.about?.content} />
+					<div className="mt-5" id="contact">
+						<Contact></Contact>
+					</div>
+				</div>
+			}
+		/>
+	)
+}
+
 const IndexPage = ({ data }) => {
 	const { frontmatter } = data.markdownRemark
 
 	return (
 		<Layout>
-			<SplitView
-				left={
-					<div className="mt-5">
-						<BM2023
-							title={frontmatter.main?.title}
-							subheading={frontmatter.main?.subheading}
-							content={frontmatter.main?.content}></BM2023>
-					</div>
-				}
-				right={
-					<div className="mt-5">
-						<Heading>{frontmatter.about?.title}</Heading>
-						<Markdown children={frontmatter.about?.content} />
-						<div className="mt-5" id="contact">
-							<Contact></Contact>
-						</div>
-					</div>
-				}
-			/>
+			<IndexPageTemplate frontmatter={frontmatter} />
 		</Layout>
 	)
 }

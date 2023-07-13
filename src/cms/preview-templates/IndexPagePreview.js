@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import IndexPage from '../../templates/index-page'
+import { IndexPageTemplate } from '../../templates/index-page'
 import '../../css/tailwind.css'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
 	const data = entry.getIn(['data']).toJS()
 
 	if (data) {
-		return <IndexPage data={{ markdownRemark: { frontmatter: data } }} />
+		return <IndexPageTemplate frontmatter={data} />
 	} else {
 		return <div>Loading...</div>
 	}
