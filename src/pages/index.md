@@ -5,7 +5,8 @@ main:
   title: Beach Mission 2023
   subheading: 30th July – 11th August
   content: >-
-    [Register Here](/register)\
+    [tinyurl.com/bmbigdayout](tinyurl.com/bmbigdayout)[Register
+    Here](/register)\
 
     [Important information for parents leaflet](/files/InformationForParents2023.pdf)  
 
