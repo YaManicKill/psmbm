@@ -5,7 +5,7 @@ main:
   title: Beach Mission 2023
   subheading: 30th July – 11th August
   content: >-
-    [t](tinyurl.com/bmbigdayout)[Register Here](/register)\
+    [Register Here](/register)\
 
     [Important information for parents leaflet](/files/InformationForParents2023.pdf)  
 
@@ -16,7 +16,7 @@ main:
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    Scroll down for information about the **Big Day Out** on Tuesday 8th August.  Sign up here: tinyurl.com/bmbigdayout
+    Scroll down for information about the **Big Day Out** on Tuesday 8th August.  [Sign up here](http://tinyurl.com/bmbigdayout)
 
 
     Check out our age groups and session times here:
