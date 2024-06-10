@@ -5,8 +5,12 @@ main:
   title: Beach Mission 2024
   subheading: 28th July – 9th August
   content: >-
-    [](/register)[Important information for parents
-    leaflet](/files/InformationForParents2023.pdf)  
+    W﻿e hope to have our publicity ready and registrations open by the end of
+    June.  In the meantime, the 2023 information will tell you roughly what to
+    expect.
+
+
+    [](/register)[Important information for parents leaflet](/files/InformationForParents2023.pdf)  
 
 
     Beach Mission will be back this summer, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
@@ -27,7 +31,7 @@ main:
     ![]()
 
 
-    All children and young people must be registered [](/register)for safeguarding reasons and to give us contact details and other important information.  Registration will open in June.
+    All children and young people must be registered [](/register)for safeguarding reasons and to give us contact details and other important information.  Registration will be open in July.
 
 
     If you have any questions, please use the [contact form](#contact).
