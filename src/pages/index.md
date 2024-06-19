@@ -27,7 +27,7 @@ main:
     ![]()
 
 
-    All children and young people must be registered [](/register)for safeguarding reasons and to give us contact details and other important information.  Registration will be open in July.
+    All children and young people must be registered [](/register)for safeguarding reasons and to give us contact details and other important information.  Registration will be open soon.
 
 
     If you have any questions, please use the [contact form](#contact).
