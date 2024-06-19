@@ -15,22 +15,22 @@ main:
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    Check out our age groups and session times here.  (Age groups and session times will remain the same for 2024, but locations may be adjusted nearer the time)
+    Check out our age groups and session times here.  (Note that ages are "as at 31st August 2024")
 
 
     ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 4-5s, 1:30-3:15pm. Turtles age 6-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/agegroups.png "Age group times")
-
-
-    ![]()
-
-
-    ![]()
 
 
     All children and young people must be registered [](/register)for safeguarding reasons and to give us contact details and other important information.  Registration will be open soon.
 
 
     If you have any questions, please use the [contact form](#contact).
+
+
+    ![]()
+
+
+    ![]()
 about:
   title: What Is Beach Mission?
   content: >-
