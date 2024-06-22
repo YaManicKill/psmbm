@@ -15,7 +15,7 @@ main:
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    Check out our age groups and session times here.  (Note that ages are "as at 31st August 2024")
+    Check out our age groups and session times below.  (Note that ages are "as at 31st August 2024")
 
 
     ### **R﻿egister your child(ren) [here.](https://forms.gle/gVSoGxXU5ugTfbHAA)**
