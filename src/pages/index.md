@@ -41,7 +41,7 @@ about:
     well-established event with excellent support from local authorities and
     churches. Since the decline of tourism in the area, the mission now works
     almost entirely with local children and young people, some of whom travel
-    from other parts of the island. Around 250 children and young people attend
+    from other parts of the island. Around 200 children and young people attend
     daily to enjoy activities including games, crafts, drama, interactive Bible
     teaching, music and outings.
 
