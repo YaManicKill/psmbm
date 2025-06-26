@@ -5,9 +5,8 @@ main:
   title: Beach Mission 2025
   subheading: 27th July – 8th August
   content: >-
-    [](https://www.psmbm.im/files/informationforparents2025.pdf)Important
-    information for parents
-    lea[](https://www.psmbm.im/files/informationforparents2025.pdf)flet
+    [I﻿mportant information for parents
+    leaflet](https://www.psmbm.im/files/informationforparents2025.pdf)
 
 
     Beach Mission will be back next summer, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
