@@ -18,13 +18,13 @@ main:
     Check out our age groups and session times below. (Note that ages are "as at 31st August")
 
 
-    **[R﻿egister for Port St Mary Beach Mission 2025 here](https://forms.gle/gVSoGxXU5ugTfbHAA)**
+    **[R﻿egister for Port St Mary Beach Mission 2025 here](https://forms.gle/tiUWh22CzbZwaAhK6)**
 
 
     ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/session-times-2025.jpg "Age group times")
 
 
-    #### All children and young people must be registered for safeguarding reasons and to give us contact details and other important information. [Registrations for 2025 are now open.](https://forms.gle/gVSoGxXU5ugTfbHAA)
+    #### All children and young people must be registered for safeguarding reasons and to give us contact details and other important information. [Registrations for 2025 are now open.](https://forms.gle/tiUWh22CzbZwaAhK6)
 
 
     If you have any questions, please use the [contact form](#contact).
