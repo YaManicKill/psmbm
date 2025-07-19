@@ -41,4 +41,7 @@ about:
 
 
     ![Port St Mary Beach Mission Poster. Open to all 0-17s. Free Bible-themed activities. 27th July - 8th August 2025. Information (including booking) is at psmbm.im or find us on Facebook @psmbeachmission](/files/psmbmposter2025.jpg)
+
+
+    ![](/files/family-events.jpg)
 ---
