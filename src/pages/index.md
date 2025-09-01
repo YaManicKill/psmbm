@@ -15,7 +15,7 @@ main:
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    N.B. We've left our information for 2025 to give you an idea of what to expect.  The information will be updated much nearer the time, but is not likely to change very much.
+    **N.B. We've left our information for 2025 to give you an idea of what to expect.  The information will be updated much nearer the time, but is not likely to change very much.**
 
 
     The registration form will be made available around the end of June 2026
