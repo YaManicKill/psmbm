@@ -21,7 +21,7 @@ main:
     [Register here](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
 
 
-    ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/family-events-poster.jpg "Age group times")
+    ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/session-times.png "Age group times")
 
 
     #### All children and young people must be registered for safeguarding reasons and to give us contact details and other important information.  [Register here.](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
@@ -40,8 +40,8 @@ about:
     teaching, music and outings.
 
 
-    ![Port St Mary Beach Mission Poster. Open to all 0-17s. Free Bible-themed activities. 27th July - 8th August 2025. Information (including booking) is at psmbm.im or find us on Facebook @psmbeachmission](/files/psmbmposter2026.jpg)
+    ![Port St Mary Beach Mission Poster. Open to all 0-17s. Free Bible-themed activities. 27th July - 8th August 2025. Information (including booking) is at psmbm.im or find us on Facebook @psmbeachmission](/files/session-times.png)
 
 
-    ![](/files/family-events.jpg)
+    ![](/files/family-events-poster.jpg)
 ---
