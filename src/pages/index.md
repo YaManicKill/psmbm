@@ -9,16 +9,16 @@ main:
     leaflet](https://www.psmbm.im/files/informationforparents2025.pdf)
 
 
-    Beach Mission will be back next summer, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
+    Beach Mission is coming soon, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
 
 
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    **N.B. We've left our information for 2025 to give you an idea of what to expect in 2026   The information will be updated much nearer the time, but is not likely to change very much.**
+    **However, all children and young people must be registered before attending their first session.**
 
 
-    The registration form will be made available around the end of June 2026
+    [Register here](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
 
 
     ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/session-times-2025.jpg "Age group times")
