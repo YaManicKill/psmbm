@@ -21,6 +21,8 @@ main:
     [Register here](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
 
 
+
+
     ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/session-times.png "Age group times")
 
 
@@ -33,14 +35,14 @@ about:
   content: >-
     The Port St Mary SU Beach Mission was founded in 1901 and is a
     well-established event with excellent support from local authorities and
-    churches. Since the decline of tourism in the area, the mission now works
-    almost entirely with local children and young people, some of whom travel
-    from other parts of the island. Around 200 children and young people attend
-    daily to enjoy activities including games, crafts, drama, interactive Bible
-    teaching, music and outings.
+    churches. Since the decline of tourism in the area, the mission is now
+    attended almost entirely by local children and young people, some of whom
+    travel from other parts of the island. Around 200 children and young people
+    attend daily to enjoy activities including games, crafts, drama, interactive
+    Bible teaching, music and outings.
 
 
-    T﻿he Beach Mission is run by [Scripture Union Ministries Trust (SUMT) ](www.sumt.im)who work with children and young people across the Isle. of Man
+    T﻿he Beach Mission is run by [Scripture Union Ministries Trust (SUMT)](www.sumt.im) who work with children and young people across the Isle. of Man
 
 
     ![Port St Mary Beach Mission Poster. Open to all 0-17s. Free Bible-themed activities. 27th July - 8th August 2025. Information (including booking) is at psmbm.im or find us on Facebook @psmbeachmission](/files/psmbmposter2026.jpg)
