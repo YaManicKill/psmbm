@@ -40,7 +40,7 @@ about:
     teaching, music and outings.
 
 
-    T﻿he Beach Mission is run by [Scripture Union Ministries Trust (SUMT)](sumt.im) who work with children and young people across the Isle. of Man
+    T﻿he Beach Mission is run by [Scripture Union Ministries Trust (SUMT) ](www.sumt.im)who work with children and young people across the Isle. of Man
 
 
     ![Port St Mary Beach Mission Poster. Open to all 0-17s. Free Bible-themed activities. 27th July - 8th August 2025. Information (including booking) is at psmbm.im or find us on Facebook @psmbeachmission](/files/psmbmposter2026.jpg)
