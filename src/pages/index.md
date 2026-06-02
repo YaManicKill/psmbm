@@ -6,7 +6,7 @@ main:
   subheading: 26th July – 7th August
   content: >-
     [I﻿mportant information for parents
-    leaflet](https://www.psmbm.im/files/InformationForParents2026.pdf.pdf)
+    leaflet](https://www.psmbm.im/files/InformationForParents2026.pdf)
 
 
     Beach Mission is coming soon, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
