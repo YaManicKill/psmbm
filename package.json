@@ -35,6 +35,6 @@
 		"eslint-plugin-react-hooks": "4.6.2",
 		"eslint-webpack-plugin": "6.0.0",
 		"gatsby-plugin-eslint": "4.0.4",
-		"prettier": "3.8.3"
+		"prettier": "3.9.6"
 	}
 }
