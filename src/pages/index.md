@@ -2,23 +2,26 @@
 templateKey: index-page
 slug: /
 main:
-  title: Beach Mission 2026
-  subheading: 26th July – 7th August
+  title: Beach Mission 2027
+  subheading: 1st - 13th August
   content: >-
-    [I﻿mportant information for parents
-    leaflet](https://www.psmbm.im/files/InformationForParents2026.pdf)
+    Beach Mission 2026 is over, and we're already looking forward to Beach
+    Mission 2027.
 
 
-    Beach Mission is coming soon, and all children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
+    All children and young people will be welcome to join in. There will be activities every weekday for 0-17 year olds in six different age groups. Everyone is welcome, and activities are free (apart from a contribution for the outing). Activities include games, crafts, competitions, an outing, and interactive Bible based activities appropriate for each age group.
 
 
     Children and young people are welcome to attend whichever sessions they wish - we don't need to know in advance which sessions they will be coming to.
 
 
-    **However, all children and young people must be registered before attending their first session.**
+    **All children and young people must be registered before attending their first session - our registration form will be available in June 2027**
 
 
-    [Register here](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
+    O﻿ur publicity will be available nearer the time, but in the meantime we've left the information for 2026 so you can get an idea of what to expect.
+
+
+    [I﻿mportant information for parents leaflet](https://www.psmbm.im/files/InformationForParents2026.pdf)
 
 
 
@@ -26,7 +29,7 @@ main:
     ![Age groups and times. Starfish age 0-3, 1:30-3:15pm. Seahorses age 3-4s, 1:30-3:15pm. Turtles age 5-7s, 10-11:45am and 1:30-3:15pm. Narwhals age 8-10s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Sharks age 11-12s, 10-11:45am, 1:30-3:15pm, and 7:30-8:45pm. Deckers age 13-17s, 10-11:45am, 1:30-3:15pm, and 7:30-9:45pm. The Lighthouse for adults and children not at other groups. 10:45-11:45am.](/files/session-times.png "Age group times")
 
 
-    #### All children and young people must be registered for safeguarding reasons and to give us contact details and other important information.  [Register here.](https://docs.google.com/forms/d/e/1FAIpQLSd6MnJ2IU9V1qvf0Gu5_7LYnScLbnAt-mpaNG5tmtUbXkaluw/viewform)
+    #### All children and young people must be registered for safeguarding reasons and to give us contact details and other important information. 
 
 
     #### If you have any questions, please use the  [contact form](#contact).
